@@ -1,0 +1,175 @@
+
+body{
+  font-family: 'Montserrat', ;
+
+}
+h3{
+  font-family: 'Montserrat-black', ;
+  font-weight: bold;
+}
+p{
+  color: #8f8f8f;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin: 0 10%;
+}
+li{
+  color: #8f8f8f;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin: 0 10%;
+}
+i{
+  padding:50px 10px 20px;
+}
+.z-index-container{
+  position: absolute;
+  top: 600px;
+}
+/* title */
+#title{
+  background-color: #ff4c68;
+
+}
+.big-header{
+  color: #fff;
+  font-family: 'Montserrat-black', ;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+/* features */
+#features{
+  background-color: #fff;
+  padding: 10% 10%;
+  font-weight: bold;
+  text-align: center;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+/* navigation */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu',;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  margin: 20px;
+
+}
+.nav-link{
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+/* download buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image{
+  width: 60%;
+  transform: rotate(20deg);
+  margin-left: 80px;
+}
+
+/* icons */
+
+.icon {
+color: #ef8172;
+padding-bottom: 1rem;
+}
+.hover:hover{
+  background-color: #fff;
+  color: #ff4c68;
+  opacity: 5;
+}
+/* Testimonials */
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+  padding: 8% 15%;
+  text-align: center;
+}
+.testimonials-image{
+  width: 10% ;
+  border-radius: 50%;
+  margin: 20px;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+/* press */
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding: 0 8% 8%  ;
+
+}
+.press-image{
+  width: 15%;
+  margin: 0 20px;
+
+}
+/* pricing */
+#pricing{
+  text-align: center;
+  font-weight: bold;
+  padding: 10%;
+}
+.container{
+  margin-top: 10%;
+}
+/* Call to Action  */
+#cta{
+
+  padding: 50px 200px;
+  text-align: center;
+  background-color: #ff4c68;
+}
+/* Footer */
+
+#footer{
+
+  text-align: center;
+  margin: 20px;
+}
+.copyright{
+  font-size: 16px;
+}
+@media (max-width: 1028px) {
+  body{
+    text-align: center;
+  }
+  .title-image{
+    transform: rotate(0);
+    margin: 0;
+  }
+  .z-index-container{
+    top: 1000px;
+    z-index: 1;
+
+  }
+  #features{
+    padding: 0;
+    margin-bottom: 50px;
+  }
+  #cta{
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+  .testimonial-text{
+    font-size: 2.5rem;
+
+  }
+
+
+}
